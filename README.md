@@ -1,16 +1,10 @@
-# Gas Meter OCR Bot
+# Gaz Hisoblagich OCR Bot
 
-Telegram bot rasmdan gaz hisoblagich seriya raqamini o'qiydi (EasyOCR), ma'lumotlarni saqlaydi va Excel hisobot chiqaradi.
+Telegram bot rasmdan seriya raqamini o'qiydi va Excel hisobot chiqaradi.
 
-## Xususiyatlar
-- Avtomatik rasm o'qish (OCR)
-- Seriya: `TPGR0XXXXXXXXXXX`
-- Model: G1.6, G2.5, G4, ...
-- Metrological / Non-metrological firmware
-- Excel hisobot (`/report`)
-- Toshkent vaqti (UTC+5)
+## Deploy
+- Render.com (Free)
+- Webhook rejimida 24/7 ishlaydi
 
-## O'rnatish
-
-```bash
-pip install -r requirements.txt
+## Admin
+- /report — Excel
