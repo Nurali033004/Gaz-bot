@@ -1,6 +1,8 @@
 python-telegram-bot==20.8
-Pillow
-easyocr
-pandas
-openpyxl
-python-dotenv
+Pillow==10.0.0
+easyocr==1.7.1
+pandas==2.1.4
+openpyxl==3.1.2
+python-dotenv==1.0.0
+flask==2.3.3
+numpy==1.24.3
