@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: gaz-bot
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: |
+      apt-get update && apt-get install -y tesseract-ocr libtesseract-dev
+      pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      BOT_TOKEN:
+        value: 7609013692:AAHlEoAtz-GY71jRTD_oMjQULwK6hPz5zBQ
