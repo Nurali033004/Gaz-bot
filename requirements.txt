@@ -1,6 +1,6 @@
-python-telegram-bot==21.4
-pytesseract
-pillow
+python-telegram-bot==20.8
+Pillow
+easyocr
 pandas
 openpyxl
 python-dotenv
